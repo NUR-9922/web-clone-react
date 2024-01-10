@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import CourseCardData from "src/data/CourseCardData/CourseCardData";
-
+import cardData from "/src/data/cardData/cardData";
 const Courses = () => {
+     
      const [selectedOption, setSelectedOption] = useState(false);
      // searching logic 
      const [searchTerm, setSearchTerm] = useState("");
-     const filterData = CourseCardData.filter((course) => {
+     const filterData = cardData.filter((course) => {
           return course.courseType.toLowerCase().includes(searchTerm.toLowerCase());
      })
 
@@ -31,7 +31,7 @@ const Courses = () => {
                <div className="flex justify-between items-center pt-20 flex-col md:flex-row">
                     <p className="text-gray-700  font-semibold text-base dark:text-white">
                          We found{" "}
-                         <span className="text-blue-400">{CourseCardData.length}</span>{" "}
+                         <span className="text-blue-400">{cardData?.length}</span>{" "}
                          courses available for you
                     </p>
 
