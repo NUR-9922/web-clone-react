@@ -1,6 +1,6 @@
 # Project Name
 
-Brief description of your React project.
+Brief description of this React project.
 
 ## Table of Contents
 
