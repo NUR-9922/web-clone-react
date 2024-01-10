@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import CourseCardData from "/src/data/CourseCardData/CourseCardData";
-import headerCategoriesData from "/src/data/headerCategoriesData/headerCategoriesData";
-
+import CourseCardData from "src/data/CourseCardData/CourseCardData";
 
 const Courses = () => {
      const [selectedOption, setSelectedOption] = useState(false);
