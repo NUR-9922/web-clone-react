@@ -1,5 +1,5 @@
 import React from "react";
-import CourseCardData from "/src/data/CourseCardData/CourseCardData";
+import CourseCardData from "../../data/CourseCardData";
 function CoursesSectionForHome() {
   return (
     <div>
@@ -80,7 +80,7 @@ function CoursesSectionForHome() {
         ))}
       </div>
     </div>
-  );
+    );
 }
 
 export default CoursesSectionForHome;

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import cardData from "/src/data/footerData/cardData";
+import cardData from "../../data/courseCardData";
  
 const Courses = () => {
      

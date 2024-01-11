@@ -1,6 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import CategoriesData from "/src/data/headerCategoriesData/headerCategoriesData";
-import headerUlListData from "/src/data/headerUlListData/headerUlListData";
 import { CiSun } from "react-icons/ci";
 import { IoMdMoon } from "react-icons/io";
 import { CiSearch } from "react-icons/ci";
@@ -11,6 +9,8 @@ import { FaDev } from "react-icons/fa";
 import { IoMdMenu } from "react-icons/io";
 import { IoMdLogIn } from "react-icons/io";
 import MobileMenu from "./MobileMenu";
+import CategoriesData from "../../data/headerCategoriesData";
+import headerUlListData from "../../data/HeaderUlListData";
 function Navbar() {
   const [mobileMenu, setmobileMenu] = useState(false);
   const [activeLink, setActiveLink] = useState("/");
@@ -60,12 +60,12 @@ function Navbar() {
 
   }, []);
 
-
+  console.log(headerUlListData);
 
   return (
 
 
-
+    
     <div className="relative">
       <header
         onMouseLeave={() => setCategoryMenu(false)}
@@ -277,7 +277,7 @@ function Navbar() {
           <div onClick={() => setmobileMenu(!mobileMenu)} className="text-2xl cursor-pointer lg:hidden">   <IoMdMenu /></div>
         </div>
       </header>
-      <div className={`w-full ${mobileMenu ? 'h-screen' : 'h-0'} transition-all duration-300 ease-in-out bg-yellow-50 overflow-hidden z-[100] fixed top-12 left-0 `}>
+      <div className={`w-full ${mobileMenu ? 'h-screen' : 'h-0'} transition-all duration-300 ease-in-out bg-yellow-50 overflow-hidden z-[99] fixed top-12 left-0 `}>
         <div className="flex justify-end p-4">
           <button onClick={() => setmobileMenu(!mobileMenu)} className="text-gray-800 focus:outline-none">
             <svg xmlns="http://www.w3.org/2000/svg" className={`h-6 w-6 transition-transform transform ${mobileMenu ? 'rotate-0' : 'rotate-45'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -312,6 +312,7 @@ function Navbar() {
 
 
     </div>
+    
 
   );
 }

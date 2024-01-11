@@ -1,5 +1,5 @@
 import React from 'react'
-import footerData from "/src/data/footerData/footerData";
+import footerData from "../../data/footerData";
 import { GrFacebookOption } from "react-icons/gr";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
