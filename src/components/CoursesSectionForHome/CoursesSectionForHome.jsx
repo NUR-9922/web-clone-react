@@ -1,5 +1,5 @@
 import React from "react";
-import CourseCardData from "../../data/CourseCardData";
+import CourseCardData from "../../data/courseCardData";
 function CoursesSectionForHome() {
   return (
     <div>
