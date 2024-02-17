@@ -4,7 +4,7 @@ object represents a course and contains properties such as `courseImageUrl`, `co
 `totalCourseSelling`. */
 const courseCartData = [
      {
-          courseImageUrl: "public/assets/asset 10.jpeg",
+          courseImageUrl: "assets/asset 10.jpeg",
           courseType: 'design',
           coursePrice: '₹ 999',
           courseHeading: 'UI/UX design pattern for succesfull software applications',
@@ -14,7 +14,7 @@ const courseCartData = [
           totalCourseSelling: '2000',
      },
      {
-      courseImageUrl: "public/assets/asset 18.jpeg",
+      courseImageUrl: "assets/asset 18.jpeg",
       courseType: 'Marketing',
       coursePrice: '₹ 1299',
       courseHeading: 'Digital Marketing Strategies for Business Growth',
@@ -24,7 +24,7 @@ const courseCartData = [
       totalCourseSelling: '5000',
  },
      {
-          courseImageUrl: "public/assets/asset 12.jpeg",
+          courseImageUrl: "assets/asset 12.jpeg",
           courseType: 'Accounting',
           coursePrice: '₹ 899',
           courseHeading: 'Basic knowledge about hodiernal bharat in history',
@@ -34,7 +34,7 @@ const courseCartData = [
           totalCourseSelling: '8000',
      },
      {
-          courseImageUrl: "public/assets/asset 14.jpeg",
+          courseImageUrl: "assets/asset 14.jpeg",
           courseType: 'Physics',
           coursePrice: '₹ 899',
           courseHeading: 'Visual effects for games in unity beginner to intermediate',
@@ -44,7 +44,7 @@ const courseCartData = [
           totalCourseSelling: '18000',
      },
      {
-          courseImageUrl: "public/assets/asset 16.jpeg",
+          courseImageUrl: "assets/asset 16.jpeg",
           courseType: 'Programming',
           coursePrice: '₹ 799',
           courseHeading: 'Advanced Web Development with React and Node.js',
@@ -54,7 +54,7 @@ const courseCartData = [
           totalCourseSelling: '2500',
      },
      {
-          courseImageUrl: "public/assets/asset 18.jpeg",
+          courseImageUrl: "assets/asset 18.jpeg",
           courseType: 'Marketing',
           coursePrice: '₹ 1299',
           courseHeading: 'Digital Marketing Strategies for Business Growth',
@@ -64,7 +64,7 @@ const courseCartData = [
           totalCourseSelling: '5000',
      },
      {
-          courseImageUrl: "public/assets/asset 20.jpeg",
+          courseImageUrl: "assets/asset 20.jpeg",
           courseType: 'Chemistry',
           coursePrice: '₹ 1099',
           courseHeading: 'Chemical Reactions and Laboratory Techniques',
@@ -74,7 +74,7 @@ const courseCartData = [
           totalCourseSelling: '12000',
      },
      {
-          courseImageUrl: "public/assets/asset 20.jpeg",
+          courseImageUrl: "assets/asset 20.jpeg",
           courseType: 'Chemistry',
           coursePrice: '₹ 1099',
           courseHeading: 'Chemical Reactions and Laboratory Techniques',
@@ -84,7 +84,7 @@ const courseCartData = [
           totalCourseSelling: '12000',
      },
      {
-      courseImageUrl: "public/assets/asset 16.jpeg",
+      courseImageUrl: "assets/asset 16.jpeg",
       courseType: 'Computer Science',
       coursePrice: '₹ 899',
       courseHeading: 'Data Structures and Algorithms Masterclass',
@@ -94,7 +94,7 @@ const courseCartData = [
       totalCourseSelling: '5000',
     },
      {
-          courseImageUrl: "public/assets/asset 16.jpeg",
+          courseImageUrl: "assets/asset 16.jpeg",
           courseType: 'Finance',
           coursePrice: '₹ 1499',
           courseHeading: 'Investment Strategies and Portfolio Management',
@@ -104,7 +104,7 @@ const courseCartData = [
           totalCourseSelling: '3000',
         },
         {
-          courseImageUrl: "public/assets/asset 14.jpeg",
+          courseImageUrl: "assets/asset 14.jpeg",
           courseType: 'Physics',
           coursePrice: '₹ 899',
           courseHeading: 'Visual effects for games in unity beginner to intermediate',
@@ -114,7 +114,7 @@ const courseCartData = [
           totalCourseSelling: '18000',
      },
         {
-          courseImageUrl: "public/assets/asset 14.jpeg",
+          courseImageUrl: "assets/asset 14.jpeg",
           courseType: 'Language',
           coursePrice: '₹ 699',
           courseHeading: 'Spanish Language Mastery for Beginners',
@@ -124,7 +124,7 @@ const courseCartData = [
           totalCourseSelling: '10000',
         },
         {
-          courseImageUrl: "public/assets/asset 18.jpeg",
+          courseImageUrl: "assets/asset 18.jpeg",
           courseType: 'History',
           coursePrice: '₹ 1199',
           courseHeading: 'Ancient Civilizations: A Journey Through Time',
@@ -134,7 +134,7 @@ const courseCartData = [
           totalCourseSelling: '6000',
         },
         {
-          courseImageUrl: "public/assets/asset 12.jpeg",
+          courseImageUrl: "assets/asset 12.jpeg",
           courseType: 'Finance',
           coursePrice: '₹ 1499',
           courseHeading: 'Investment Strategies and Portfolio Management',
@@ -144,7 +144,7 @@ const courseCartData = [
           totalCourseSelling: '3000',
         },
         {
-          courseImageUrl: "public/assets/asset 14.jpeg",
+          courseImageUrl: "assets/asset 14.jpeg",
           courseType: 'Language',
           coursePrice: '₹ 699',
           courseHeading: 'Spanish Language Mastery for Beginners',
@@ -154,7 +154,7 @@ const courseCartData = [
           totalCourseSelling: '10000',
         },
         {
-          courseImageUrl: "public/assets/asset 10.jpeg",
+          courseImageUrl: "assets/asset 10.jpeg",
           courseType: 'History',
           coursePrice: '₹ 1199',
           courseHeading: 'Ancient Civilizations: A Journey Through Time',
@@ -164,7 +164,7 @@ const courseCartData = [
           totalCourseSelling: '6000',
         },
         {
-          courseImageUrl: "public/assets/asset 16.jpeg",
+          courseImageUrl: "assets/asset 16.jpeg",
           courseType: 'Computer Science',
           coursePrice: '₹ 899',
           courseHeading: 'Data Structures and Algorithms Masterclass',
@@ -174,7 +174,7 @@ const courseCartData = [
           totalCourseSelling: '5000',
         },
         {
-          courseImageUrl: "public/assets/asset 20.jpeg",
+          courseImageUrl: "assets/asset 20.jpeg",
           courseType: 'Health & Fitness',
           coursePrice: '₹ 799',
           courseHeading: 'Holistic Wellness: Mind, Body, and Spirit',
@@ -184,7 +184,7 @@ const courseCartData = [
           totalCourseSelling: '8000',
         },
         {
-          courseImageUrl: "public/assets/asset 14.jpeg",
+          courseImageUrl: "assets/asset 14.jpeg",
           courseType: 'Mathematics',
           coursePrice: '₹ 1099',
           courseHeading: 'Advanced Calculus: Concepts and Applications',
@@ -194,7 +194,7 @@ const courseCartData = [
           totalCourseSelling: '6000',
         },
         {
-          courseImageUrl: "public/assets/asset 20.jpeg",
+          courseImageUrl: "assets/asset 20.jpeg",
           courseType: 'Chemistry',
           coursePrice: '₹ 1099',
           courseHeading: 'Chemical Reactions and Laboratory Techniques',

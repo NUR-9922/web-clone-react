@@ -1,6 +1,7 @@
 import React from "react";
 import CourseCardData from "../../data/courseCardData";
 function CoursesSectionForHome() {
+  console.log(CourseCardData); 
   return (
     <div>
       {/* course cards */}
